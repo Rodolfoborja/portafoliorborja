@@ -25,8 +25,7 @@ const Hero = () => {
         className="relative flex sm:flex-row flex-col w-full h-screen mx-auto 
         sm:bg-hero bg-hero-mobile overflow-hidden">
         <div
-          className={`absolute inset-0 sm:top-[250px] top-[150px] 
-          lg:top-[150px] xl:top-[250px] ${styles.paddingX} 
+          className={`absolute inset-0 top-[125px] ${styles.paddingX} 
           max-w-7xl mx-auto flex flex-row items-start
           justify-between gap-3`}>
           <div className="flex flex-col justify-center items-center mt-5 ml-3">
@@ -45,12 +44,14 @@ const Hero = () => {
                 Shaquille
               </span> */}
             </h1>
-            <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}> 
+            <p className={`${styles.heroSubText} mt-6 text-eerieBlack`}> 
             a Full Stack Developer with 5+ years of experience.<br className="sm:block hidden" />
             I have worked in many languages and Frameworks.
             Currently working in ,<br className="sm:block hidden" />
              ☑️ Node.js,<br className="sm:block hidden" />
              ☑️ React<br className="sm:block hidden" />
+             ☑️ Angular<br className="sm:block hidden" />
+             ☑️ Flutter<br className="sm:block hidden" />
             for a prestigious company in Ecuador.<br className="sm:block hidden" />                      
             </p>
           </div>
@@ -87,9 +88,7 @@ const Hero = () => {
         {/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
         <div>
           <img
-            className="absolute bottom-0 ml-[50vw] 
-            lg:ml-[75vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[83vw]
-            sm:h-[90vh] md:h-[70vh] xl:h-[80vh]"
+            className="absolute bottom-0 md:ml-[40vw] lg:ml-[40vw]"
             src={rodolfo}
             alt="shaquille"
           />

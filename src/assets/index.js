@@ -10,8 +10,9 @@ import rodolfo from './personal/Rodolfo2.png';
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
-import rpa from './icons/RPA.png';
+import rpa from './icons/rpa2.png';
 import frontend from './icons/frontend.png';
+import mobileDeveloper from './icons/mobileDeveloper.png'
 import prototyping from './icons/prototyping.png';
 import github from './icons/github.png';
 import close from './icons/close.png';
@@ -51,6 +52,8 @@ import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
 import gestorRequerimientos from './projects/GestorRequerimientos.png'
+import konnex from './projects/Konnex.jpg'
+import oxify from './projects/OXIFY.png'
 
 export {
   bwmap,
@@ -99,5 +102,8 @@ export {
   kelhel,
   microverse,
   rpa,
-  gestorRequerimientos
+  gestorRequerimientos,
+  mobileDeveloper,
+  konnex,
+  oxify
 };

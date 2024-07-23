@@ -16,19 +16,16 @@ import {
   docker,
   postgresql,
   rubyrails,
-  graphql,
-  komikult,
-  leaderboard,
-  math,
-  movie,
-  nyeusi,
-  space,
+  graphql, 
   coverhunt,
   dcc,
   kelhel,
   microverse,
   rpa,
-  gestorRequerimientos
+  gestorRequerimientos,
+  mobileDeveloper,
+  konnex,
+  oxify
 } from '../assets';
 
 export const navLinks = [
@@ -66,6 +63,10 @@ const services = [
   {
     title: 'Robotic process automation (RPA)',
     icon: rpa,
+  },
+  {
+    title: 'Mobile Developer',
+    icon: mobileDeveloper,
   },
 ];
 
@@ -219,94 +220,58 @@ const projects = [
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
-    description:
-      'A leaderboard list app that displays scores submitted by different players.',
+    name: 'Konnex',
+    description: 'During my tenure at Kruger, I had the privilege of contributing to the development of an innovative application designed to streamline access to a wide range of services, including mechanics, cleaning, locksmithing, plumbing, air conditioning, and painting. This application is distinguished by its ability to incorporate new services based on the providers who join and the services they choose to offer. The platform, dynamic by nature, simplifies the user process for registration, service requests, payments through multiple methods, service request inquiries, location registration, and receiving push notifications via Firebase and Google Maps. Furthermore, it allows for real-time tracking of each request status. Developed under a service-oriented business model, the application acts as a bridge between customers and registered service providers, ensuring an effective and secure interaction for all parties involved.',
     tags: [
       {
-        name: 'react',
+        name: 'Dart',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
+        name: 'Flutter',
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'Firebase',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'node.js',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'postgress sql',
         color: 'pink-text-gradient',
       },
     ],
-    image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    image: konnex,
+    repo: '',
+    demo: '',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'Oxify',
+    description: 'During my tenure at Kruger, I had the privilege of contributing to the development of an innovative application web desined for contributions of projects forestal.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'Angular.js',
         color: 'blue-text-gradient',
+      },      
+      {
+        name: 'node.js',
+        color: 'pink-text-gradient',
       },
       {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
+        name: 'PrimeNg',
         color: 'pink-text-gradient',
       },
     ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    image: oxify,
+    repo: '',
+    demo: 'https://marketplace.oxify.earth/store',
   },
-  {
-    id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
-  },
-  {
-    id: 'project-5',
-    name: 'Nyeusi Fest Site',
-    description:
-      'This is a demo concert website for a music festival called Nyeusi.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
-  },
+
+ 
 ];
 
 export { services, technologies, experiences, projects };
