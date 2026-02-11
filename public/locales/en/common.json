@@ -1,0 +1,151 @@
+{
+  "common": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "experience": "Experience",
+      "skills": "Skills",
+      "projects": "Projects",
+      "education": "Education",
+      "contact": "Contact"
+    },
+    "language": "Language",
+    "downloadCV": "Download CV"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Rodolfo Borja",
+    "title": "Full Stack Developer",
+    "subtitle": "Creating amazing digital experiences",
+    "cta": "View my work",
+    "contact": "Contact me"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I'm a passionate developer with experience in creating modern and scalable web applications. I specialize in frontend and backend technologies, always looking to learn and improve my skills.",
+    "location": "Location",
+    "email": "Email",
+    "phone": "Phone",
+    "available": "Available for projects"
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "present": "Present",
+    "items": [
+      {
+        "position": "Senior Full Stack Developer",
+        "company": "Tech Company",
+        "location": "Remote",
+        "date": "2022 - Present",
+        "description": "Development of scalable web applications using React, Next.js, Node.js and SQL/NoSQL databases.",
+        "achievements": [
+          "Led the development of 5+ successful projects",
+          "Improved application performance by 40%",
+          "Implemented modern and scalable architectures"
+        ]
+      },
+      {
+        "position": "Frontend Developer",
+        "company": "Digital Agency",
+        "location": "City",
+        "date": "2020 - 2022",
+        "description": "Creation of attractive and responsive user interfaces with React and Vue.js.",
+        "achievements": [
+          "Developed 10+ responsive websites",
+          "Implemented pixel-perfect designs",
+          "Optimized web performance"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "categories": {
+      "frontend": {
+        "title": "Frontend",
+        "items": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vue.js", "HTML5", "CSS3"]
+      },
+      "backend": {
+        "title": "Backend",
+        "items": ["Node.js", "Express", "Python", "Django", "PostgreSQL", "MongoDB", "REST APIs"]
+      },
+      "tools": {
+        "title": "Tools",
+        "items": ["Git", "Docker", "AWS", "CI/CD", "Jest", "Webpack", "VS Code"]
+      },
+      "soft": {
+        "title": "Soft Skills",
+        "items": ["Teamwork", "Leadership", "Communication", "Problem Solving", "Project Management"]
+      }
+    }
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "viewProject": "View Project",
+    "viewCode": "View Code",
+    "items": [
+      {
+        "title": "E-Commerce Platform",
+        "description": "Complete e-commerce platform with shopping cart, payments, and admin panel.",
+        "technologies": ["Next.js", "TypeScript", "Stripe", "PostgreSQL"],
+        "image": "/projects/ecommerce.jpg",
+        "link": "https://example.com",
+        "github": "https://github.com"
+      },
+      {
+        "title": "Task Management App",
+        "description": "Task management application with real-time collaboration.",
+        "technologies": ["React", "Node.js", "Socket.io", "MongoDB"],
+        "image": "/projects/taskapp.jpg",
+        "link": "https://example.com",
+        "github": "https://github.com"
+      },
+      {
+        "title": "Portfolio Website",
+        "description": "Modern portfolio website with animations and responsive design.",
+        "technologies": ["Next.js", "Tailwind CSS", "Framer Motion"],
+        "image": "/projects/portfolio.jpg",
+        "link": "https://example.com",
+        "github": "https://github.com"
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "items": [
+      {
+        "degree": "Computer Systems Engineering",
+        "institution": "Technological University",
+        "date": "2016 - 2020",
+        "description": "Specialization in software development and systems architecture."
+      },
+      {
+        "degree": "Full Stack Web Development Certification",
+        "institution": "Online Platform",
+        "date": "2020",
+        "description": "Intensive modern web development program."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Have a project in mind? Let's talk!",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent successfully!",
+    "error": "Error sending message. Please try again.",
+    "info": {
+      "email": "rodolfo@example.com",
+      "phone": "+123 456 7890",
+      "location": "City, Country"
+    },
+    "social": {
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "twitter": "Twitter"
+    }
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "common": {
+    "nav": {
+      "home": "Inicio",
+      "about": "Sobre Mí",
+      "experience": "Experiencia",
+      "skills": "Habilidades",
+      "projects": "Proyectos",
+      "education": "Educación",
+      "contact": "Contacto"
+    },
+    "language": "Idioma",
+    "downloadCV": "Descargar CV"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "name": "Rodolfo Borja",
+    "title": "Desarrollador Full Stack",
+    "subtitle": "Creando experiencias digitales increíbles",
+    "cta": "Ver mi trabajo",
+    "contact": "Contáctame"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "description": "Soy un desarrollador apasionado con experiencia en crear aplicaciones web modernas y escalables. Me especializo en tecnologías frontend y backend, siempre buscando aprender y mejorar mis habilidades.",
+    "location": "Ubicación",
+    "email": "Email",
+    "phone": "Teléfono",
+    "available": "Disponible para proyectos"
+  },
+  "experience": {
+    "title": "Experiencia Profesional",
+    "present": "Presente",
+    "items": [
+      {
+        "position": "Desarrollador Full Stack Senior",
+        "company": "Tech Company",
+        "location": "Remoto",
+        "date": "2022 - Presente",
+        "description": "Desarrollo de aplicaciones web escalables utilizando React, Next.js, Node.js y bases de datos SQL/NoSQL.",
+        "achievements": [
+          "Lideré el desarrollo de 5+ proyectos exitosos",
+          "Mejoré el rendimiento de aplicaciones en un 40%",
+          "Implementé arquitecturas modernas y escalables"
+        ]
+      },
+      {
+        "position": "Desarrollador Frontend",
+        "company": "Digital Agency",
+        "location": "Ciudad",
+        "date": "2020 - 2022",
+        "description": "Creación de interfaces de usuario atractivas y responsivas con React y Vue.js.",
+        "achievements": [
+          "Desarrollé 10+ sitios web responsivos",
+          "Implementé diseños pixel-perfect",
+          "Optimicé el rendimiento web"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Habilidades Técnicas",
+    "categories": {
+      "frontend": {
+        "title": "Frontend",
+        "items": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vue.js", "HTML5", "CSS3"]
+      },
+      "backend": {
+        "title": "Backend",
+        "items": ["Node.js", "Express", "Python", "Django", "PostgreSQL", "MongoDB", "REST APIs"]
+      },
+      "tools": {
+        "title": "Herramientas",
+        "items": ["Git", "Docker", "AWS", "CI/CD", "Jest", "Webpack", "VS Code"]
+      },
+      "soft": {
+        "title": "Habilidades Blandas",
+        "items": ["Trabajo en equipo", "Liderazgo", "Comunicación", "Resolución de problemas", "Gestión de proyectos"]
+      }
+    }
+  },
+  "projects": {
+    "title": "Proyectos Destacados",
+    "viewProject": "Ver Proyecto",
+    "viewCode": "Ver Código",
+    "items": [
+      {
+        "title": "E-Commerce Platform",
+        "description": "Plataforma de comercio electrónico completa con carrito, pagos y panel de administración.",
+        "technologies": ["Next.js", "TypeScript", "Stripe", "PostgreSQL"],
+        "image": "/projects/ecommerce.jpg",
+        "link": "https://example.com",
+        "github": "https://github.com"
+      },
+      {
+        "title": "Task Management App",
+        "description": "Aplicación de gestión de tareas con colaboración en tiempo real.",
+        "technologies": ["React", "Node.js", "Socket.io", "MongoDB"],
+        "image": "/projects/taskapp.jpg",
+        "link": "https://example.com",
+        "github": "https://github.com"
+      },
+      {
+        "title": "Portfolio Website",
+        "description": "Sitio web de portafolio moderno con animaciones y diseño responsivo.",
+        "technologies": ["Next.js", "Tailwind CSS", "Framer Motion"],
+        "image": "/projects/portfolio.jpg",
+        "link": "https://example.com",
+        "github": "https://github.com"
+      }
+    ]
+  },
+  "education": {
+    "title": "Educación",
+    "items": [
+      {
+        "degree": "Ingeniería en Sistemas Computacionales",
+        "institution": "Universidad Tecnológica",
+        "date": "2016 - 2020",
+        "description": "Especialización en desarrollo de software y arquitectura de sistemas."
+      },
+      {
+        "degree": "Certificación en Desarrollo Web Full Stack",
+        "institution": "Plataforma Online",
+        "date": "2020",
+        "description": "Programa intensivo de desarrollo web moderno."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "¿Tienes un proyecto en mente? ¡Hablemos!",
+    "name": "Nombre",
+    "email": "Email",
+    "message": "Mensaje",
+    "send": "Enviar Mensaje",
+    "sending": "Enviando...",
+    "success": "¡Mensaje enviado con éxito!",
+    "error": "Error al enviar el mensaje. Por favor, intenta de nuevo.",
+    "info": {
+      "email": "rodolfo@example.com",
+      "phone": "+123 456 7890",
+      "location": "Ciudad, País"
+    },
+    "social": {
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "twitter": "Twitter"
+    }
+  }
+}
