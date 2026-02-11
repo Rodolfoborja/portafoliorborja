@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { useI18n } from '../i18n/I18nContext';
 
 export default function Contact() {
-  const { t } = useI18n();
+  const { t, ts } = useI18n();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -41,10 +41,10 @@ export default function Contact() {
           viewport={{ once: true }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-center text-gray-900 dark:text-white mb-4">
-            {t('contact.title')}
+            {ts('contact.title')}
           </h2>
           <p className="text-xl text-center text-gray-600 dark:text-gray-400 mb-16">
-            {t('contact.subtitle')}
+            {ts('contact.subtitle')}
           </p>
         </motion.div>
         
@@ -58,7 +58,7 @@ export default function Contact() {
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                  {t('contact.name')}
+                  {ts('contact.name')}
                 </label>
                 <input
                   type="text"
@@ -74,7 +74,7 @@ export default function Contact() {
               
               <div>
                 <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                  {t('contact.email')}
+                  {ts('contact.email')}
                 </label>
                 <input
                   type="email"
@@ -90,7 +90,7 @@ export default function Contact() {
               
               <div>
                 <label htmlFor="message" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                  {t('contact.message')}
+                  {ts('contact.message')}
                 </label>
                 <textarea
                   id="message"
@@ -100,7 +100,7 @@ export default function Contact() {
                   required
                   rows={6}
                   className="w-full px-4 py-3 bg-white dark:bg-gray-900 border border-gray-300 dark:border-gray-700 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent transition-colors text-gray-900 dark:text-white"
-                  placeholder={t('contact.subtitle')}
+                  placeholder={ts('contact.subtitle')}
                 />
               </div>
               
@@ -111,7 +111,7 @@ export default function Contact() {
                 whileHover={{ scale: status === 'sending' ? 1 : 1.02 }}
                 whileTap={{ scale: status === 'sending' ? 1 : 0.98 }}
               >
-                {status === 'sending' ? t('contact.sending') : t('contact.send')}
+                {status === 'sending' ? ts('contact.sending') : ts('contact.send')}
               </motion.button>
               
               {status === 'success' && (
@@ -120,7 +120,7 @@ export default function Contact() {
                   animate={{ opacity: 1, y: 0 }}
                   className="p-4 bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-400 rounded-lg"
                 >
-                  {t('contact.success')}
+                  {ts('contact.success')}
                 </motion.div>
               )}
               
@@ -130,7 +130,7 @@ export default function Contact() {
                   animate={{ opacity: 1, y: 0 }}
                   className="p-4 bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-400 rounded-lg"
                 >
-                  {t('contact.error')}
+                  {ts('contact.error')}
                 </motion.div>
               )}
             </form>
@@ -145,12 +145,12 @@ export default function Contact() {
           >
             <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-lg">
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-6">
-                {t('contact.title')}
+                {ts('contact.title')}
               </h3>
               
               <div className="space-y-4">
                 <motion.a
-                  href={`mailto:${t('contact.info.email')}`}
+                  href={`mailto:${ts('contact.info.email')}`}
                   className="flex items-center space-x-4 text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                   whileHover={{ x: 5 }}
                 >
@@ -160,13 +160,13 @@ export default function Contact() {
                     </svg>
                   </div>
                   <div>
-                    <p className="text-sm text-gray-500 dark:text-gray-400">{t('contact.email')}</p>
-                    <p className="font-medium">{t('contact.info.email')}</p>
+                    <p className="text-sm text-gray-500 dark:text-gray-400">{ts('contact.email')}</p>
+                    <p className="font-medium">{ts('contact.info.email')}</p>
                   </div>
                 </motion.a>
                 
                 <motion.a
-                  href={`tel:${t('contact.info.phone')}`}
+                  href={`tel:${ts('contact.info.phone')}`}
                   className="flex items-center space-x-4 text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                   whileHover={{ x: 5 }}
                 >
@@ -176,8 +176,8 @@ export default function Contact() {
                     </svg>
                   </div>
                   <div>
-                    <p className="text-sm text-gray-500 dark:text-gray-400">{t('about.phone')}</p>
-                    <p className="font-medium">{t('contact.info.phone')}</p>
+                    <p className="text-sm text-gray-500 dark:text-gray-400">{ts('about.phone')}</p>
+                    <p className="font-medium">{ts('contact.info.phone')}</p>
                   </div>
                 </motion.a>
                 
@@ -192,8 +192,8 @@ export default function Contact() {
                     </svg>
                   </div>
                   <div>
-                    <p className="text-sm text-gray-500 dark:text-gray-400">{t('about.location')}</p>
-                    <p className="font-medium">{t('contact.info.location')}</p>
+                    <p className="text-sm text-gray-500 dark:text-gray-400">{ts('about.location')}</p>
+                    <p className="font-medium">{ts('contact.info.location')}</p>
                   </div>
                 </motion.div>
               </div>

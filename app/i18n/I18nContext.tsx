@@ -4,17 +4,32 @@ import { createContext, useContext, useState, ReactNode, useEffect } from 'react
 
 type Locale = 'es' | 'en';
 
+interface TranslationData {
+  [key: string]: string | TranslationData | string[];
+}
+
 interface I18nContextType {
   locale: Locale;
   setLocale: (locale: Locale) => void;
-  t: (key: string) => any;
+  t: (key: string) => string | TranslationData;
+  ts: (key: string) => string;
 }
 
 const I18nContext = createContext<I18nContextType | undefined>(undefined);
 
+function getInitialLocale(): Locale {
+  if (typeof window !== 'undefined') {
+    const savedLocale = localStorage.getItem('locale') as Locale;
+    if (savedLocale && (savedLocale === 'es' || savedLocale === 'en')) {
+      return savedLocale;
+    }
+  }
+  return 'es';
+}
+
 export function I18nProvider({ children }: { children: ReactNode }) {
-  const [locale, setLocaleState] = useState<Locale>('es');
-  const [translations, setTranslations] = useState<any>({});
+  const [locale, setLocaleState] = useState<Locale>(getInitialLocale);
+  const [translations, setTranslations] = useState<TranslationData>({});
 
   useEffect(() => {
     // Load translations
@@ -29,20 +44,13 @@ export function I18nProvider({ children }: { children: ReactNode }) {
     localStorage.setItem('locale', newLocale);
   };
 
-  useEffect(() => {
-    const savedLocale = localStorage.getItem('locale') as Locale;
-    if (savedLocale && (savedLocale === 'es' || savedLocale === 'en')) {
-      setLocaleState(savedLocale);
-    }
-  }, []);
-
-  const t = (key: string): any => {
+  const t = (key: string): string | TranslationData => {
     const keys = key.split('.');
-    let value: any = translations;
+    let value: string | TranslationData = translations;
     
     for (const k of keys) {
       if (value && typeof value === 'object') {
-        value = value[k];
+        value = value[k] as string | TranslationData;
       } else {
         return key;
       }
@@ -51,8 +59,13 @@ export function I18nProvider({ children }: { children: ReactNode }) {
     return value || key;
   };
 
+  const ts = (key: string): string => {
+    const result = t(key);
+    return typeof result === 'string' ? result : key;
+  };
+
   return (
-    <I18nContext.Provider value={{ locale, setLocale, t }}>
+    <I18nContext.Provider value={{ locale, setLocale, t, ts }}>
       {children}
     </I18nContext.Provider>
   );

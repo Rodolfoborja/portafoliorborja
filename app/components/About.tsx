@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { useI18n } from '../i18n/I18nContext';
 
 export default function About() {
-  const { t } = useI18n();
+  const { t, ts } = useI18n();
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -34,7 +34,7 @@ export default function About() {
             className="text-4xl md:text-5xl font-bold text-center text-gray-900 dark:text-white mb-12"
             variants={itemVariants}
           >
-            {t('about.title')}
+            {ts('about.title')}
           </motion.h2>
           
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -51,7 +51,7 @@ export default function About() {
             
             <motion.div variants={itemVariants} className="space-y-6">
               <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-                {t('about.description')}
+                {ts('about.description')}
               </p>
               
               <div className="space-y-4">
@@ -64,8 +64,8 @@ export default function About() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                   </svg>
                   <div>
-                    <p className="font-semibold text-gray-900 dark:text-white">{t('about.location')}</p>
-                    <p className="text-gray-600 dark:text-gray-400">{t('contact.info.location')}</p>
+                    <p className="font-semibold text-gray-900 dark:text-white">{ts('about.location')}</p>
+                    <p className="text-gray-600 dark:text-gray-400">{ts('contact.info.location')}</p>
                   </div>
                 </motion.div>
                 
@@ -77,8 +77,8 @@ export default function About() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                   <div>
-                    <p className="font-semibold text-gray-900 dark:text-white">{t('about.email')}</p>
-                    <p className="text-gray-600 dark:text-gray-400">{t('contact.info.email')}</p>
+                    <p className="font-semibold text-gray-900 dark:text-white">{ts('about.email')}</p>
+                    <p className="text-gray-600 dark:text-gray-400">{ts('contact.info.email')}</p>
                   </div>
                 </motion.div>
                 
@@ -90,8 +90,8 @@ export default function About() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                   </svg>
                   <div>
-                    <p className="font-semibold text-gray-900 dark:text-white">{t('about.phone')}</p>
-                    <p className="text-gray-600 dark:text-gray-400">{t('contact.info.phone')}</p>
+                    <p className="font-semibold text-gray-900 dark:text-white">{ts('about.phone')}</p>
+                    <p className="text-gray-600 dark:text-gray-400">{ts('contact.info.phone')}</p>
                   </div>
                 </motion.div>
               </div>
@@ -101,7 +101,7 @@ export default function About() {
                 whileHover={{ scale: 1.05 }}
               >
                 <span className="w-3 h-3 bg-green-500 rounded-full mr-2 animate-pulse"></span>
-                {t('about.available')}
+                {ts('about.available')}
               </motion.div>
             </motion.div>
           </div>

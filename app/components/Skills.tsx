@@ -3,9 +3,21 @@
 import { motion } from 'framer-motion';
 import { useI18n } from '../i18n/I18nContext';
 
+interface SkillCategory {
+  title: string;
+  items: string[];
+}
+
+interface SkillCategories {
+  frontend: SkillCategory;
+  backend: SkillCategory;
+  tools: SkillCategory;
+  soft: SkillCategory;
+}
+
 export default function Skills() {
-  const { t } = useI18n();
-  const categories = t('skills.categories');
+  const { t, ts } = useI18n();
+  const categories = t('skills.categories') as unknown as SkillCategories;
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -31,11 +43,11 @@ export default function Skills() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          {t('skills.title')}
+          {ts('skills.title') as string}
         </motion.h2>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {categories && Object.entries(categories).map(([key, category]: [string, any], index: number) => (
+          {categories && Object.entries(categories).map(([key, category]: [string, SkillCategory], index: number) => (
             <motion.div
               key={key}
               className="bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-800 dark:to-gray-900 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow"

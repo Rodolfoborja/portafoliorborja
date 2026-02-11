@@ -3,9 +3,18 @@
 import { motion } from 'framer-motion';
 import { useI18n } from '../i18n/I18nContext';
 
+interface ExperienceItem {
+  position: string;
+  company: string;
+  location: string;
+  date: string;
+  description: string;
+  achievements?: string[];
+}
+
 export default function Experience() {
-  const { t } = useI18n();
-  const experiences = t('experience.items');
+  const { t, ts } = useI18n();
+  const experiences = t('experience.items') as unknown as ExperienceItem[];
 
   return (
     <section id="experience" className="py-20 bg-gray-50 dark:bg-gray-800">
@@ -16,7 +25,7 @@ export default function Experience() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          {t('experience.title')}
+          {ts('experience.title') as string}
         </motion.h2>
         
         <div className="relative">
@@ -24,7 +33,7 @@ export default function Experience() {
           <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-blue-600 hidden md:block"></div>
           
           <div className="space-y-12">
-            {Array.isArray(experiences) && experiences.map((exp: any, index: number) => (
+            {Array.isArray(experiences) && experiences.map((exp: ExperienceItem, index: number) => (
               <motion.div
                 key={index}
                 className={`flex flex-col md:flex-row gap-8 items-center ${

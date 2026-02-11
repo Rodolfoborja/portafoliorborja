@@ -3,9 +3,16 @@
 import { motion } from 'framer-motion';
 import { useI18n } from '../i18n/I18nContext';
 
+interface EducationItem {
+  degree: string;
+  institution: string;
+  date: string;
+  description: string;
+}
+
 export default function Education() {
-  const { t } = useI18n();
-  const education = t('education.items');
+  const { t, ts } = useI18n();
+  const education = t('education.items') as unknown as EducationItem[];
 
   return (
     <section id="education" className="py-20 bg-white dark:bg-gray-900">
@@ -16,11 +23,11 @@ export default function Education() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          {t('education.title')}
+          {ts('education.title') as string}
         </motion.h2>
         
         <div className="max-w-4xl mx-auto space-y-8">
-          {Array.isArray(education) && education.map((edu: any, index: number) => (
+          {Array.isArray(education) && education.map((edu: EducationItem, index: number) => (
             <motion.div
               key={index}
               className="bg-gradient-to-r from-gray-50 to-gray-100 dark:from-gray-800 dark:to-gray-900 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow"

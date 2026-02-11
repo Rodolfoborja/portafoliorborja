@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { useI18n } from '../i18n/I18nContext';
 
 export default function Hero() {
-  const { t } = useI18n();
+  const { t, ts } = useI18n();
 
   return (
     <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 pt-16">
@@ -21,7 +21,7 @@ export default function Hero() {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.2 }}
             >
-              {t('hero.greeting')}
+              {ts('hero.greeting')}
             </motion.p>
             
             <motion.h1
@@ -30,7 +30,7 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
             >
-              {t('hero.name')}
+              {ts('hero.name')}
             </motion.h1>
             
             <motion.h2
@@ -39,7 +39,7 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
             >
-              {t('hero.title')}
+              {ts('hero.title')}
             </motion.h2>
             
             <motion.p
@@ -48,7 +48,7 @@ export default function Hero() {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.5 }}
             >
-              {t('hero.subtitle')}
+              {ts('hero.subtitle')}
             </motion.p>
             
             <motion.div
@@ -63,7 +63,7 @@ export default function Hero() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                {t('hero.cta')}
+                {ts('hero.cta')}
               </motion.a>
               
               <motion.a
@@ -72,7 +72,7 @@ export default function Hero() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                {t('hero.contact')}
+                {ts('hero.contact')}
               </motion.a>
             </motion.div>
           </motion.div>

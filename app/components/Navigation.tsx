@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { useI18n } from '../i18n/I18nContext';
 
 export default function Navigation() {
-  const { locale, setLocale, t } = useI18n();
+  const { locale, setLocale, t, ts } = useI18n();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -64,7 +64,7 @@ export default function Navigation() {
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
               >
-                {t(`common.nav.${item.key}`)}
+                {ts(`common.nav.${item.key}`)}
               </motion.a>
             ))}
             
@@ -117,7 +117,7 @@ export default function Navigation() {
                 className="block py-2 text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                {t(`common.nav.${item.key}`)}
+                {ts(`common.nav.${item.key}`)}
               </a>
             ))}
             <button
