@@ -1,0 +1,189 @@
+{
+  "personalInfo": {
+    "fullName": "Rodolfo Alfonso Borja Jimenez",
+    "title": "Senior Developer & Technical RPA Consultant",
+    "email": "rodolfoborja25@gmail.com",
+    "phone": "+593993697957",
+    "location": "Duran, Guayas, Ecuador",
+    "website": "https://rodolfoborja.com",
+    "yearsOfExperience": 7
+  },
+  "summary": "Experienced Senior Developer and Technical RPA Consultant with 7+ years of expertise in enterprise automation, web application development, and mobile solutions. Specialized in RPA tools (UiPath, Automation Anywhere) and full-stack development using React, Node.js, Angular, and C#. Proven track record leading technical projects and coordinating development teams in complex integrations.",
+  "experience": [
+    {
+      "id": 1,
+      "position": "Senior Developer & Technical RPA Consultant",
+      "company": "Kruger Corp",
+      "type": "Full-time",
+      "startDate": "May 2022",
+      "endDate": null,
+      "isCurrent": true,
+      "location": "Ecuador",
+      "description": "Lead RPA automation initiatives and web application development across multiple clients",
+      "achievements": [
+        "Architected and implemented RPA automation solutions for Pacasmayo, including invoice registration and payment validation processes in SAP",
+        "Led frontend development team for enterprise applications serving 1000+ users",
+        "Developed and maintained multiple web applications using React, Node.js, and Angular.js",
+        "Designed and implemented mobile solutions using Flutter and React Native",
+        "Increased process automation efficiency by 60% through intelligent RPA implementations",
+        "Mentored junior developers on RPA best practices and enterprise integration patterns"
+      ],
+      "projects": [
+        "Flow Application (Amdocs)",
+        "Pago Plus",
+        "Radar System",
+        "Actuarial System",
+        "Oxify",
+        "TODO OK App (Mobile)",
+        "Konnex (Mobile)",
+        "OCP Connect (Mobile)",
+        "SAP Invoice & Payment Automation (RPA)"
+      ],
+      "technologies": ["React", "Node.js", "Angular.js", "Flutter", "React Native", "UiPath", "Automation Anywhere", "SAP"]
+    },
+    {
+      "id": 2,
+      "position": "Semi-Senior Developer",
+      "company": "Sipecom S.A.",
+      "type": "Full-time",
+      "startDate": "Nov 2021",
+      "endDate": "May 2022",
+      "isCurrent": false,
+      "location": "Ecuador",
+      "description": "Developed enterprise solutions for pharmaceutical distribution client",
+      "achievements": [
+        "Implemented Prisma project for Grupo Difare with focus on business process automation",
+        "Developed data management modules using C# and SQL Server",
+        "Created responsive user interfaces with Angular.js",
+        "Optimized database queries resulting in 40% performance improvement"
+      ],
+      "projects": ["Prisma (Grupo Difare)"],
+      "technologies": ["C#", "ASP.NET", "Angular.js", "SQL Server", "Entity Framework"]
+    },
+    {
+      "id": 3,
+      "position": "Technology Development Engineer",
+      "company": "Banco del Pacífico",
+      "type": "Full-time",
+      "startDate": "Mar 2020",
+      "endDate": "Nov 2021",
+      "isCurrent": false,
+      "location": "Ecuador",
+      "description": "Developed RPA automation solutions for banking processes",
+      "achievements": [
+        "Designed and deployed automated solutions for fraud detection using UiPath",
+        "Automated claims and returns processing, reducing manual effort by 70%",
+        "Implemented process mining to identify optimization opportunities",
+        "Trained banking teams on RPA tool usage and compliance"
+      ],
+      "projects": ["Fraud Detection Automation", "Claims Processing", "Returns Management"],
+      "technologies": ["UiPath Studio", "Automation Anywhere", "SQL Server", "JavaScript"]
+    },    
+    {
+      "id": 4,
+      "position": "Semi-Senior Developer",
+      "company": "Sipecom S.A.",
+      "type": "Full-time",
+      "startDate": "Aug 2019",
+      "endDate": "Mar 2020",
+      "isCurrent": false,
+      "location": "Ecuador",
+      "description": "Developed comprehensive web solutions for beneficence organization operations",
+      "achievements": [
+        "Implemented Prisma project for Junta Beneficencia with Web Service development using C# and REST APIs",
+        "Developed Housing Management System (Sistema Hogares) with complete CRUD operations and data validation",
+        "Created Payroll and Payments System (Sistema Nominas y Pagos) for employee compensation management",
+        "Built Inventory Transfer System (Traslado de Inventarios) for asset and inventory management",
+        "Optimized database queries for high-volume transactions"
+      ],
+      "projects": [
+        "Prisma - Web Service Development",
+        "Sistema Hogares",
+        "Sistema Nominas y Pagos",
+        "Traslado de Inventarios"
+      ],
+      "technologies": ["C#", "ASP.NET", "Angular.js", "SQL Server", "Stored Procedures"]
+    },
+    {
+      "id": 5,
+      "position": "Junior Developer & Project Leader",
+      "company": "Righttek S.A.",
+      "type": "Full-time",
+      "startDate": "Jan 2017",
+      "endDate": "Jul 2019",
+      "isCurrent": false,
+      "location": "Ecuador",
+      "description": "Developed cross-platform mobile applications and enterprise systems",
+      "achievements": [
+        "Led development of Requirements Management System used by 500+ users",
+        "Developed mobile applications using Xamarin for iOS and Android platforms",
+        "Created intranet modules with 30+ features for enterprise use",
+        "Implemented REST API integrations with legacy systems",
+        "Mentored junior developers on mobile development best practices"
+      ],
+      "projects": ["Requirements Management System", "BDP Intranet App", "Mobile Applications"],
+      "technologies": ["Xamarin", "C#", ".NET", "JavaScript", "SQL Server", "REST APIs"]
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "degree": "Ingeniería en Sistemas Computacionales",
+      "institution": "Universidad de Guayaquil",
+      "status": "Completed"
+    },
+    {
+      "id": 2,
+      "degree": "Bachiller en Ciencias de Comercio y Administración",
+      "institution": "Unidad Educativa 'Eloy Alfaro'",
+      "status": "Completed"
+    },
+    {
+      "id": 3,
+      "degree": "Certificate in Risk Action and Management",
+      "institution": "Defensa Civil",
+      "hours": 200,
+      "status": "Completed"
+    }
+  ],
+  "skills": {
+    "rpa": {
+      "title": "RPA & Automation",
+      "items": ["UiPath Studio", "Automation Anywhere", "Process Mining", "Enterprise RPA Solutions", "Bot Development"]
+    },
+    "frontend": {
+      "title": "Frontend Development",
+      "items": ["React.js", "Angular.js", "React Native", "JavaScript", "HTML5", "CSS3", "jQuery", "Responsive Design"]
+    },
+    "backend": {
+      "title": "Backend Development",
+      "items": ["Node.js", "C#", "ASP.NET", "Java", "PHP", "REST APIs", "SOAP Services", "Express.js"]
+    },
+    "mobile": {
+      "title": "Mobile Development",
+      "items": ["Flutter", "React Native", "Xamarin", "iOS/Android", "Cross-platform Development"]
+    },
+    "databases": {
+      "title": "Databases & Data",
+      "items": ["SQL Server", "Stored Procedures", "Entity Framework", "LINQ", "Database Design", "Query Optimization"]
+    },
+    "tools": {
+      "title": "Tools & Technologies",
+      "items": ["DevExpress", "WCF", "Firebase", "Azure Entra", "MVC/MVVM", "SCRUM/Agile"]
+    },
+    "soft": {
+      "title": "Soft Skills",
+      "items": ["Leadership", "Team Coordination", "Assertive Communication", "Problem Solving", "Project Management", "Technical Documentation", "Mentoring"]
+    }
+  },
+  "languages": [
+    {
+      "language": "Spanish",
+      "level": "Native"
+    },
+    {
+      "language": "English",
+      "level": "Intermediate"
+    }
+  ]
+}

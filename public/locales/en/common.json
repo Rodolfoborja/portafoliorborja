@@ -15,17 +15,17 @@
   "hero": {
     "greeting": "Hi, I'm",
     "name": "Rodolfo Borja",
-    "title": "Full Stack Developer",
-    "subtitle": "Creating amazing digital experiences",
+    "title": "Senior Developer & RPA Consultant",
+    "subtitle": "Enterprise Automation | Full Stack Development | Mobile Solutions",
     "cta": "View my work",
     "contact": "Contact me"
   },
   "about": {
     "title": "About Me",
-    "description": "I'm a passionate developer with experience in creating modern and scalable web applications. I specialize in frontend and backend technologies, always looking to learn and improve my skills.",
-    "location": "Location",
-    "email": "Email",
-    "phone": "Phone",
+    "description": "Senior Developer and Technical RPA Consultant with 7+ years of expertise in enterprise automation, web application development, and mobile solutions. I specialize in RPA tools (UiPath, Automation Anywhere) and full-stack development using React, Node.js, Angular, and C#. Proven track record leading technical projects and coordinating development teams in complex integrations.",
+    "location": "Duran, Guayas, Ecuador",
+    "email": "rodolfoborja25@gmail.com",
+    "phone": "+593 993697957",
     "available": "Available for projects"
   },
   "experience": {
@@ -33,27 +33,69 @@
     "present": "Present",
     "items": [
       {
-        "position": "Senior Full Stack Developer",
-        "company": "Tech Company",
-        "location": "Remote",
-        "date": "2022 - Present",
-        "description": "Development of scalable web applications using React, Next.js, Node.js and SQL/NoSQL databases.",
+        "position": "Senior Developer & Technical RPA Consultant",
+        "company": "Kruger Corp",
+        "location": "Ecuador",
+        "date": "May 2022 - Present",
+        "description": "Lead RPA automation initiatives and web application development across multiple enterprise clients.",
         "achievements": [
-          "Led the development of 5+ successful projects",
-          "Improved application performance by 40%",
-          "Implemented modern and scalable architectures"
+          "Architected and implemented RPA automation solutions for Pacasmayo, automating SAP invoice registration and payment validation",
+          "Led frontend development team for enterprise applications serving 1000+ users",
+          "Developed multiple web applications using React, Node.js, and Angular.js",
+          "Designed mobile solutions using Flutter and React Native",
+          "Increased process automation efficiency by 60% through intelligent RPA implementations"
         ]
       },
       {
-        "position": "Frontend Developer",
-        "company": "Digital Agency",
-        "location": "City",
-        "date": "2020 - 2022",
-        "description": "Creation of attractive and responsive user interfaces with React and Vue.js.",
+        "position": "Semi-Senior Developer",
+        "company": "Sipecom S.A.",
+        "location": "Ecuador",
+        "date": "Nov 2021 - May 2022",
+        "description": "Developed enterprise solutions for pharmaceutical distribution (Grupo Difare).",
         "achievements": [
-          "Developed 10+ responsive websites",
-          "Implemented pixel-perfect designs",
-          "Optimized web performance"
+          "Implemented Prisma project with focus on business process automation",
+          "Developed data management modules using C# and SQL Server",
+          "Created responsive user interfaces with Angular.js",
+          "Optimized database queries resulting in 40% performance improvement"
+        ]
+      },
+      {
+        "position": "Technology Development Engineer",
+        "company": "Banco del Pacífico",
+        "location": "Ecuador",
+        "date": "Mar 2020 - Nov 2021",
+        "description": "Developed RPA automation solutions for critical banking processes.",
+        "achievements": [
+          "Designed and deployed fraud detection solutions using UiPath",
+          "Automated claims and returns processing, reducing manual effort by 70%",
+          "Implemented process mining to identify optimization opportunities",
+          "Trained banking teams on RPA usage and compliance"
+        ]
+      },
+      {
+        "position": "Semi-Senior Developer",
+        "company": "Sipecom S.A.",
+        "location": "Ecuador",
+        "date": "Aug 2019 - Mar 2020",
+        "description": "Developed comprehensive web solutions for beneficence organization operations with focus on enterprise systems and database management.",
+        "achievements": [
+          "Implemented Prisma project for Junta Beneficencia with Web Service development using C# and REST APIs",
+          "Developed Housing Management System (Sistema Hogares) with complete CRUD operations and data validation",
+          "Created Payroll and Payments System (Sistema Nominas y Pagos) for employee compensation management",
+          "Built Inventory Transfer System (Traslado de Inventarios) for asset and inventory management"
+        ]
+      },
+      {
+        "position": "Junior Developer & Project Leader",
+        "company": "Righttek S.A.",
+        "location": "Ecuador",
+        "date": "Jan 2017 - Jul 2019",
+        "description": "Developed cross-platform mobile applications and enterprise systems.",
+        "achievements": [
+          "Led development of Requirements Management System used by 500+ users",
+          "Developed Xamarin mobile applications for iOS and Android",
+          "Created intranet modules with 30+ features for enterprise use",
+          "Implemented REST API integrations with legacy systems"
         ]
       }
     ]
@@ -61,21 +103,33 @@
   "skills": {
     "title": "Technical Skills",
     "categories": {
+      "rpa": {
+        "title": "RPA & Automation",
+        "items": ["UiPath Studio", "Automation Anywhere", "Process Mining", "Enterprise RPA Solutions", "Bot Development"]
+      },
       "frontend": {
-        "title": "Frontend",
-        "items": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vue.js", "HTML5", "CSS3"]
+        "title": "Frontend Development",
+        "items": ["React.js", "Angular.js", "React Native", "JavaScript", "HTML5", "CSS3", "jQuery", "Responsive Design"]
       },
       "backend": {
-        "title": "Backend",
-        "items": ["Node.js", "Express", "Python", "Django", "PostgreSQL", "MongoDB", "REST APIs"]
+        "title": "Backend Development",
+        "items": ["Node.js", "C#", "ASP.NET", "Java", "PHP", "REST APIs", "SOAP Services", "Express.js"]
+      },
+      "mobile": {
+        "title": "Mobile Development",
+        "items": ["Flutter", "React Native", "Xamarin", "iOS/Android", "Cross-platform Development"]
+      },
+      "databases": {
+        "title": "Databases",
+        "items": ["SQL Server", "Stored Procedures", "Entity Framework", "LINQ", "Database Design"]
       },
       "tools": {
-        "title": "Tools",
-        "items": ["Git", "Docker", "AWS", "CI/CD", "Jest", "Webpack", "VS Code"]
+        "title": "Tools & Technologies",
+        "items": ["DevExpress", "WCF", "Firebase", "Azure Entra", "MVC/MVVM", "SCRUM/Agile"]
       },
       "soft": {
         "title": "Soft Skills",
-        "items": ["Teamwork", "Leadership", "Communication", "Problem Solving", "Project Management"]
+        "items": ["Leadership", "Team Coordination", "Assertive Communication", "Problem Solving", "Project Management", "Technical Documentation", "Mentoring"]
       }
     }
   },
@@ -85,28 +139,58 @@
     "viewCode": "View Code",
     "items": [
       {
-        "title": "E-Commerce Platform",
-        "description": "Complete e-commerce platform with shopping cart, payments, and admin panel.",
-        "technologies": ["Next.js", "TypeScript", "Stripe", "PostgreSQL"],
-        "image": "/projects/ecommerce.jpg",
-        "link": "https://example.com",
-        "github": "https://github.com"
+        "title": "SAP Invoice & Payment Automation",
+        "description": "Enterprise RPA automation solution for invoice registration and payment processing in SAP. Reduced manual processing time by 80%.",
+        "technologies": ["UiPath Studio", "SAP", "SQL Server", "JavaScript"],
+        "category": "rpa"
       },
       {
-        "title": "Task Management App",
-        "description": "Task management application with real-time collaboration.",
-        "technologies": ["React", "Node.js", "Socket.io", "MongoDB"],
-        "image": "/projects/taskapp.jpg",
-        "link": "https://example.com",
-        "github": "https://github.com"
+        "title": "Flow Application (Amdocs)",
+        "description": "Enterprise web application for workflow management and process automation serving 1000+ daily users.",
+        "technologies": ["React.js", "Node.js", "TypeScript", "PostgreSQL"],
+        "category": "fullstack"
       },
       {
-        "title": "Portfolio Website",
-        "description": "Modern portfolio website with animations and responsive design.",
-        "technologies": ["Next.js", "Tailwind CSS", "Framer Motion"],
-        "image": "/projects/portfolio.jpg",
-        "link": "https://example.com",
-        "github": "https://github.com"
+        "title": "Pago Plus",
+        "description": "Payment processing and management platform. Processed $10M+ in transactions with multiple payment gateway integrations.",
+        "technologies": ["React.js", "Node.js", "Stripe API", "MongoDB"],
+        "category": "fullstack"
+      },
+      {
+        "title": "Radar System",
+        "description": "Real-time monitoring and tracking system with ability to track 500+ entities simultaneously and custom dashboard implementation.",
+        "technologies": ["React.js", "Node.js", "Socket.io", "MongoDB"],
+        "category": "fullstack"
+      },
+      {
+        "title": "TODO OK Mobile App",
+        "description": "Cross-platform task management application with real-time sync, push notifications, and 10k+ downloads.",
+        "technologies": ["Flutter", "Firebase", "REST APIs"],
+        "category": "mobile"
+      },
+      {
+        "title": "Konnex",
+        "description": "Enterprise mobile communication and collaboration app with real-time messaging, video calling, and end-to-end encryption.",
+        "technologies": ["React Native", "Firebase", "Twilio"],
+        "category": "mobile"
+      },
+      {
+        "title": "Fraud Detection Automation",
+        "description": "RPA-based fraud detection system for banking operations analyzing 10k+ transactions daily with 60% reduction in false positives.",
+        "technologies": ["UiPath Studio", "SQL Server", "Python"],
+        "category": "rpa"
+      },
+      {
+        "title": "Prisma - Junta Beneficencia",
+        "description": "Comprehensive web system for beneficence organization with Housing Management, Payroll, and Inventory Transfer modules.",
+        "technologies": ["C#", "ASP.NET", "Angular.js", "SQL Server"],
+        "category": "fullstack"
+      },
+      {
+        "title": "Requirements Management System",
+        "description": "Enterprise requirements management and tracking system managing 500+ concurrent users with comprehensive reporting.",
+        "technologies": ["C#", ".NET", "JavaScript", "SQL Server"],
+        "category": "fullstack"
       }
     ]
   },
@@ -115,15 +199,21 @@
     "items": [
       {
         "degree": "Computer Systems Engineering",
-        "institution": "Technological University",
-        "date": "2016 - 2020",
-        "description": "Specialization in software development and systems architecture."
+        "institution": "Universidad de Guayaquil",
+        "date": "",
+        "description": "Comprehensive software development and systems architecture program."
       },
       {
-        "degree": "Full Stack Web Development Certification",
-        "institution": "Online Platform",
-        "date": "2020",
-        "description": "Intensive modern web development program."
+        "degree": "High School Diploma - Business and Administration",
+        "institution": "Unidad Educativa 'Eloy Alfaro'",
+        "date": "",
+        "description": "Business and administration sciences program."
+      },
+      {
+        "degree": "Risk Management Certification",
+        "institution": "Defensa Civil",
+        "date": "200 Hours",
+        "description": "Certificate in Risk Action and Management."
       }
     ]
   },
@@ -138,13 +228,13 @@
     "success": "Message sent successfully!",
     "error": "Error sending message. Please try again.",
     "info": {
-      "email": "rodolfo@example.com",
-      "phone": "+123 456 7890",
-      "location": "City, Country"
+      "email": "rodolfoborja25@gmail.com",
+      "phone": "+593 9xxxxxx97",
+      "location": "Duran, Guayas, Ecuador"
     },
     "social": {
-      "github": "GitHub",
-      "linkedin": "LinkedIn",
+      "github": "https://github.com/Rodolfoborja",
+      "linkedin": "https://www.linkedin.com/in/rodolfo-borja-748822144/",
       "twitter": "Twitter"
     }
   }

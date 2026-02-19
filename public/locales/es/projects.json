@@ -1,0 +1,268 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Automatización de Facturas y Pagos en SAP",
+      "category": "rpa",
+      "company": "Kruger Corp (Cliente: Pacasmayo)",
+      "date": "2022 - Presente",
+      "description": "Solución de automatización RPA empresarial para registro de facturas y procesamiento de pagos en SAP",
+      "achievements": [
+        "Automatizó proceso de registro de facturas en SAP",
+        "Implementó validación de recibos de pago",
+        "Creó flujo de validación de documentos adjuntos",
+        "Redujo tiempo de procesamiento manual en 80%"
+      ],
+      "technologies": ["UiPath Studio", "SAP", "SQL Server", "JavaScript"],
+      "status": "Activo"
+    },
+    {
+      "id": 2,
+      "title": "Aplicación Flow",
+      "category": "fullstack",
+      "company": "Kruger Corp (Cliente: Amdocs)",
+      "date": "2022 - Presente",
+      "description": "Aplicación web empresarial para gestión de flujos de trabajo y automatización de procesos",
+      "achievements": [
+        "Lideró equipo de desarrollo frontend",
+        "Sirvió a 1000+ usuarios diarios",
+        "Implementó actualizaciones en tiempo real",
+        "Logró 99.5% de disponibilidad"
+      ],
+      "technologies": ["React.js", "Node.js", "TypeScript", "PostgreSQL"],
+      "status": "Activo"
+    },
+    {
+      "id": 3,
+      "title": "Pago Plus",
+      "category": "fullstack",
+      "company": "Kruger Corp",
+      "date": "2022 - 2024",
+      "description": "Plataforma de procesamiento y gestión de pagos",
+      "achievements": [
+        "Procesó $10M+ en transacciones",
+        "Integró con múltiples pasarelas de pago",
+        "Implementó flujos de pago seguros"
+      ],
+      "technologies": ["React.js", "Node.js", "Stripe API", "MongoDB"],
+      "status": "Completado"
+    },
+    {
+      "id": 4,
+      "title": "Sistema Radar",
+      "category": "fullstack",
+      "company": "Kruger Corp",
+      "date": "2022 - 2023",
+      "description": "Sistema de monitoreo y rastreo en tiempo real",
+      "achievements": [
+        "Visualización de datos en tiempo real",
+        "Rastrear 500+ entidades simultáneamente",
+        "Implementación de panel personalizado"
+      ],
+      "technologies": ["React.js", "Node.js", "Socket.io", "MongoDB"],
+      "status": "Completado"
+    },
+    {
+      "id": 5,
+      "title": "Sistema Actuarial",
+      "category": "fullstack",
+      "company": "Kruger Corp",
+      "date": "2022 - 2023",
+      "description": "Sistema de cálculos actuariales y gestión de primas",
+      "achievements": [
+        "Cálculos matemáticos complejos",
+        "Motor de cálculo de primas",
+        "Generación de reportes"
+      ],
+      "technologies": ["React.js", "Node.js", "C#", "SQL Server"],
+      "status": "Completado"
+    },
+    {
+      "id": 6,
+      "title": "Oxify",
+      "category": "fullstack",
+      "company": "Kruger Corp",
+      "date": "2022 - 2023",
+      "description": "Plataforma de gestión y optimización de servicios",
+      "achievements": [
+        "Sistema de rastreo de servicios",
+        "Optimización de recursos",
+        "Panel de análisis"
+      ],
+      "technologies": ["React.js", "Node.js", "PostgreSQL", "Redis"],
+      "status": "Completado"
+    },
+    {
+      "id": 7,
+      "title": "TODO OK App",
+      "category": "mobile",
+      "company": "Kruger Corp",
+      "date": "2022 - 2023",
+      "description": "Aplicación móvil de gestión de tareas para iOS y Android",
+      "achievements": [
+        "Desarrollo multiplataforma",
+        "10k+ descargas",
+        "Sincronización en tiempo real",
+        "Notificaciones push"
+      ],
+      "technologies": ["Flutter", "Firebase", "REST APIs"],
+      "status": "Activo"
+    },
+    {
+      "id": 8,
+      "title": "Konnex",
+      "category": "mobile",
+      "company": "Kruger Corp",
+      "date": "2022 - 2023",
+      "description": "Aplicación móvil empresarial de comunicación y colaboración",
+      "achievements": [
+        "Mensajería en tiempo real",
+        "Integración de videollamadas",
+        "Encriptación de extremo a extremo"
+      ],
+      "technologies": ["React Native", "Firebase", "Twilio"],
+      "status": "Activo"
+    },
+    {
+      "id": 9,
+      "title": "OCP Connect",
+      "category": "mobile",
+      "company": "Kruger Corp",
+      "date": "2022 - 2024",
+      "description": "Aplicación móvil para conectividad operacional y gestión",
+      "achievements": [
+        "Funcionalidad sin conexión",
+        "Rastreo por GPS",
+        "Sincronización de datos"
+      ],
+      "technologies": ["React Native", "SQLite", "Maps API"],
+      "status": "Completado"
+    },
+    {
+      "id": 10,
+      "title": "Automatización de Detección de Fraude",
+      "category": "rpa",
+      "company": "Banco del Pacífico",
+      "date": "2020 - 2021",
+      "description": "Sistema de detección de fraude basado en RPA para operaciones bancarias",
+      "achievements": [
+        "Automatizó proceso de detección de fraude",
+        "Analizó 10k+ transacciones diarias",
+        "Redujo falsos positivos en 60%",
+        "Alertas en tiempo real"
+      ],
+      "technologies": ["UiPath Studio", "SQL Server", "Python"],
+      "status": "Completado"
+    },
+    {
+      "id": 11,
+      "title": "Procesamiento de Reclamos",
+      "category": "rpa",
+      "company": "Banco del Pacífico",
+      "date": "2020 - 2021",
+      "description": "Flujo de trabajo automatizado para procesamiento de reclamos",
+      "achievements": [
+        "Automatizó 90% del procesamiento de reclamos",
+        "Redujo tiempo de procesamiento en 70%",
+        "Mejoró precisión a 99%"
+      ],
+      "technologies": ["Automation Anywhere", "SQL Server"],
+      "status": "Completado"
+    },
+    {
+      "id": 12,
+      "title": "Gestión de Devoluciones",
+      "category": "rpa",
+      "company": "Banco del Pacífico",
+      "date": "2020 - 2021",
+      "description": "Procesamiento automatizado de devoluciones y reembolsos",
+      "achievements": [
+        "Automatizó procesamiento de reembolsos",
+        "Redujo esfuerzo manual en 70%",
+        "Rastreo en tiempo real"
+      ],
+      "technologies": ["UiPath", "SQL Server"],
+      "status": "Completado"
+    },
+    {
+      "id": 13,
+      "title": "Prisma - Junta Beneficencia",
+      "category": "fullstack",
+      "company": "Sipecom S.A. (Cliente: Junta Beneficencia)",
+      "date": "Ago 2019 - Mar 2020",
+      "description": "Sistema web integral para operaciones de organización de beneficencia",
+      "achievements": [
+        "Desarrolló servicio web con C# y REST APIs",
+        "Creó sistema de gestión de hogares (Sistema Hogares)",
+        "Implementó sistema de nómina y pagos (Sistema Nominas y Pagos)",
+        "Desarrolló sistema de traslado de inventarios"
+      ],
+      "technologies": ["C#", "ASP.NET", "Angular.js", "SQL Server"],
+      "status": "Completado"
+    },
+    {
+      "id": 14,
+      "title": "Prisma - Grupo Difare",
+      "category": "fullstack",
+      "company": "Sipecom S.A. (Cliente: Grupo Difare)",
+      "date": "Nov 2021 - May 2022",
+      "description": "Sistema empresarial para gestión de distribución farmacéutica",
+      "achievements": [
+        "Desarrolló módulos usando C# y ASP.NET",
+        "Implementó interfaces con Angular.js",
+        "Optimizó consultas de base de datos (mejora 40% rendimiento)",
+        "Creó módulos de gestión de datos"
+      ],
+      "technologies": ["C#", "ASP.NET", "Angular.js", "SQL Server", "Entity Framework"],
+      "status": "Completado"
+    },
+    {
+      "id": 15,
+      "title": "Sistema de Gestión de Requisitos",
+      "category": "fullstack",
+      "company": "Righttek S.A.",
+      "date": "2017 - 2019",
+      "description": "Sistema empresarial de gestión y rastreo de requisitos",
+      "achievements": [
+        "Gestionó 500+ usuarios concurrentes",
+        "Implementó integraciones con API REST",
+        "Creó sistema de reportes integral",
+        "Lideró equipo de desarrollo"
+      ],
+      "technologies": ["C#", ".NET", "JavaScript", "SQL Server"],
+      "status": "Completado"
+    },
+    {
+      "id": 16,
+      "title": "Aplicación BDP Intranet",
+      "category": "fullstack",
+      "company": "Righttek S.A.",
+      "date": "2017 - 2019",
+      "description": "Aplicación intranet interna con 30+ módulos de negocio",
+      "achievements": [
+        "Desarrolló 30+ módulos de características",
+        "Usado por 200+ empleados",
+        "Integrado con sistemas heredados",
+        "Implementó paneles y reportes"
+      ],
+      "technologies": ["C#", ".NET", "JavaScript", "SQL Server"],
+      "status": "Completado"
+    },
+    {
+      "id": 17,
+      "title": "Suite de Aplicaciones Móviles",
+      "category": "mobile",
+      "company": "Righttek S.A.",
+      "date": "2017 - 2019",
+      "description": "Aplicaciones móviles multiplataforma para iOS y Android",
+      "achievements": [
+        "Desarrolló múltiples apps usando Xamarin",
+        "10k+ descargas en plataformas",
+        "Mantuvo calificaciones 4.5+",
+        "Actualizaciones y mantenimiento regular"
+      ],
+      "technologies": ["Xamarin", "C#", ".NET", "Firebase"],
+      "status": "Mantenimiento"
+    }
+  ]
+}

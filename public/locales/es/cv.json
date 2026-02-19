@@ -1,0 +1,189 @@
+{
+  "personalInfo": {
+    "fullName": "Rodolfo Alfonso Borja Jimenez",
+    "title": "Desarrollador Senior & Consultor Técnico RPA",
+    "email": "rodolfoborja25@gmail.com",
+    "phone": "+593993697957",
+    "location": "Duran, Guayas, Ecuador",
+    "website": "https://rodolfoborja.com",
+    "yearsOfExperience": 7
+  },
+  "summary": "Desarrollador Senior y Consultor Técnico RPA con 7+ años de experiencia en automatización empresarial, desarrollo de aplicaciones web y soluciones móviles. Especializado en herramientas RPA (UiPath, Automation Anywhere) y desarrollo full-stack usando React, Node.js, Angular y C#. Trayectoria comprobada liderando proyectos técnicos y coordinando equipos de desarrollo en integraciones complejas.",
+  "experience": [
+    {
+      "id": 1,
+      "position": "Desarrollador Senior & Consultor Técnico RPA",
+      "company": "Kruger Corp",
+      "type": "Tiempo completo",
+      "startDate": "May 2022",
+      "endDate": null,
+      "isCurrent": true,
+      "location": "Ecuador",
+      "description": "Lidera iniciativas de automatización RPA y desarrollo de aplicaciones web en múltiples clientes",
+      "achievements": [
+        "Arquitectó e implementó soluciones de automatización RPA para Pacasmayo, incluyendo procesos de registro de facturas y validación de pagos en SAP",
+        "Lideró equipo de desarrollo frontend para aplicaciones empresariales que sirven a más de 1000 usuarios",
+        "Desarrolló y mantuvo múltiples aplicaciones web usando React, Node.js y Angular.js",
+        "Diseñó e implementó soluciones móviles usando Flutter y React Native",
+        "Incrementó la eficiencia de automatización de procesos en un 60% mediante implementaciones inteligentes de RPA",
+        "Mentoró desarrolladores junior en mejores prácticas de RPA e integración empresarial"
+      ],
+      "projects": [
+        "Aplicación Flow (Amdocs)",
+        "Pago Plus",
+        "Sistema Radar",
+        "Sistema Actuarial",
+        "Oxify",
+        "Aplicación TODO OK (Móvil)",
+        "Konnex (Móvil)",
+        "OCP Connect (Móvil)",
+        "Automatización de Facturas y Pagos en SAP (RPA)"
+      ],
+      "technologies": ["React", "Node.js", "Angular.js", "Flutter", "React Native", "UiPath", "Automation Anywhere", "SAP"]
+    },
+    {
+      "id": 2,
+      "position": "Desarrollador Semi-Senior",
+      "company": "Sipecom S.A.",
+      "type": "Tiempo completo",
+      "startDate": "Nov 2021",
+      "endDate": "May 2022",
+      "isCurrent": false,
+      "location": "Ecuador",
+      "description": "Desarrolló soluciones empresariales para cliente de distribución farmacéutica",
+      "achievements": [
+        "Implementó proyecto Prisma para Grupo Difare enfocado en automatización de procesos de negocio",
+        "Desarrolló módulos de gestión de datos usando C# y SQL Server",
+        "Creó interfaces de usuario responsivas con Angular.js",
+        "Optimizó consultas de base de datos resultando en mejora de rendimiento del 40%"
+      ],
+      "projects": ["Prisma (Grupo Difare)"],
+      "technologies": ["C#", "ASP.NET", "Angular.js", "SQL Server", "Entity Framework"]
+    },
+    {
+      "id": 3,
+      "position": "Ingeniero de Desarrollo Tecnológico",
+      "company": "Banco del Pacífico",
+      "type": "Tiempo completo",
+      "startDate": "Mar 2020",
+      "endDate": "Nov 2021",
+      "isCurrent": false,
+      "location": "Ecuador",
+      "description": "Desarrolló soluciones de automatización RPA para procesos bancarios",
+      "achievements": [
+        "Diseñó e implementó soluciones automatizadas para detección de fraude usando UiPath",
+        "Automatizó procesamiento de reclamos y devoluciones, reduciendo esfuerzo manual en un 70%",
+        "Implementó minería de procesos para identificar oportunidades de optimización",
+        "Capacitó equipos bancarios en uso de herramientas RPA y cumplimiento normativo"
+      ],
+      "projects": ["Automatización de Detección de Fraude", "Procesamiento de Reclamos", "Gestión de Devoluciones"],
+      "technologies": ["UiPath Studio", "Automation Anywhere", "SQL Server", "JavaScript"]
+    },
+    {
+      "id": 4,
+      "position": "Desarrollador Semi-Senior",
+      "company": "Sipecom S.A.",
+      "type": "Tiempo completo",
+      "startDate": "Ago 2019",
+      "endDate": "Mar 2020",
+      "isCurrent": false,
+      "location": "Ecuador",
+      "description": "Desarrolló soluciones web integrales para operaciones de organización de beneficencia",
+      "achievements": [
+        "Implementó proyecto Prisma para Junta Beneficencia con desarrollo de Servicio Web usando C# y APIs REST",
+        "Desarrolló Sistema de Gestión de Hogares (Sistema Hogares) con operaciones CRUD completas y validación de datos",
+        "Creó Sistema de Nómina y Pagos (Sistema Nominas y Pagos) para gestión de compensación de empleados",
+        "Desarrolló Sistema de Traslado de Inventarios (Traslado de Inventarios) para gestión de activos e inventario",
+        "Optimizó consultas de base de datos para transacciones de alto volumen"
+      ],
+      "projects": [
+        "Prisma - Desarrollo de Servicio Web",
+        "Sistema Hogares",
+        "Sistema Nominas y Pagos",
+        "Traslado de Inventarios"
+      ],
+      "technologies": ["C#", "ASP.NET", "Angular.js", "SQL Server", "Procedimientos Almacenados"]
+    },
+    {
+      "id": 5,
+      "position": "Desarrollador Junior & Líder de Proyecto",
+      "company": "Righttek S.A.",
+      "type": "Tiempo completo",
+      "startDate": "Ene 2017",
+      "endDate": "Jul 2019",
+      "isCurrent": false,
+      "location": "Ecuador",
+      "description": "Desarrolló aplicaciones móviles multiplataforma y sistemas empresariales",
+      "achievements": [
+        "Lideró desarrollo de Sistema de Gestión de Requisitos utilizado por más de 500 usuarios",
+        "Desarrolló aplicaciones móviles usando Xamarin para plataformas iOS y Android",
+        "Creó módulos de intranet con 30+ características para uso empresarial",
+        "Implementó integraciones de API REST con sistemas heredados",
+        "Mentoró desarrolladores junior en mejores prácticas de desarrollo móvil"
+      ],
+      "projects": ["Sistema de Gestión de Requisitos", "Aplicación BDP Intranet", "Aplicaciones Móviles"],
+      "technologies": ["Xamarin", "C#", ".NET", "JavaScript", "SQL Server", "REST APIs"]
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "degree": "Ingeniería en Sistemas Computacionales",
+      "institution": "Universidad de Guayaquil",
+      "status": "Completado"
+    },
+    {
+      "id": 2,
+      "degree": "Bachiller en Ciencias de Comercio y Administración",
+      "institution": "Unidad Educativa 'Eloy Alfaro'",
+      "status": "Completado"
+    },
+    {
+      "id": 3,
+      "degree": "Certificado en Gestión de Riesgo y Acción",
+      "institution": "Defensa Civil",
+      "hours": 200,
+      "status": "Completado"
+    }
+  ],
+  "skills": {
+    "rpa": {
+      "title": "RPA & Automatización",
+      "items": ["UiPath Studio", "Automation Anywhere", "Process Mining", "Soluciones RPA Empresariales", "Desarrollo de Bots"]
+    },
+    "frontend": {
+      "title": "Desarrollo Frontend",
+      "items": ["React.js", "Angular.js", "React Native", "JavaScript", "HTML5", "CSS3", "jQuery", "Diseño Responsivo"]
+    },
+    "backend": {
+      "title": "Desarrollo Backend",
+      "items": ["Node.js", "C#", "ASP.NET", "Java", "PHP", "REST APIs", "Servicios SOAP", "Express.js"]
+    },
+    "mobile": {
+      "title": "Desarrollo Móvil",
+      "items": ["Flutter", "React Native", "Xamarin", "iOS/Android", "Desarrollo Multiplataforma"]
+    },
+    "databases": {
+      "title": "Bases de Datos & Datos",
+      "items": ["SQL Server", "Procedimientos Almacenados", "Entity Framework", "LINQ", "Diseño de BD", "Optimización de Consultas"]
+    },
+    "tools": {
+      "title": "Herramientas & Tecnologías",
+      "items": ["DevExpress", "WCF", "Firebase", "Azure Entra", "MVC/MVVM", "SCRUM/Agile"]
+    },
+    "soft": {
+      "title": "Habilidades Blandas",
+      "items": ["Liderazgo", "Coordinación de Equipos", "Comunicación Asertiva", "Resolución de Problemas", "Gestión de Proyectos", "Documentación Técnica", "Mentoría"]
+    }
+  },
+  "languages": [
+    {
+      "language": "Español",
+      "level": "Nativo"
+    },
+    {
+      "language": "Inglés",
+      "level": "Intermedio"
+    }
+  ]
+}
