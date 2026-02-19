@@ -17,22 +17,23 @@ interface I18nContextType {
 
 const I18nContext = createContext<I18nContextType | undefined>(undefined);
 
-function getInitialLocale(): Locale {
-  if (typeof window !== 'undefined') {
+export function I18nProvider({ children }: { children: ReactNode }) {
+  // Always start with 'es' on both server and client
+  const [locale, setLocaleState] = useState<Locale>('es');
+  const [translations, setTranslations] = useState<TranslationData>({});
+  const [isClient, setIsClient] = useState(false);
+
+  // Initialize locale from localStorage only on client
+  useEffect(() => {
+    setIsClient(true);
     const savedLocale = localStorage.getItem('locale') as Locale;
     if (savedLocale && (savedLocale === 'es' || savedLocale === 'en')) {
-      return savedLocale;
+      setLocaleState(savedLocale);
     }
-  }
-  return 'es';
-}
+  }, []);
 
-export function I18nProvider({ children }: { children: ReactNode }) {
-  const [locale, setLocaleState] = useState<Locale>(getInitialLocale);
-  const [translations, setTranslations] = useState<TranslationData>({});
-
+  // Load translations
   useEffect(() => {
-    // Load translations
     fetch(`/locales/${locale}/common.json`)
       .then(res => res.json())
       .then(data => setTranslations(data))
